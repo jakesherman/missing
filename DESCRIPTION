@@ -1,11 +1,26 @@
 Package: missing
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Easily Deal With Missing Values (NAs) in R
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Jake Sherman
+Maintainer: Jake Sherman <jake@jakesherman.com>
+Description: `missing` makes it easy to visualize, count, replace, and fill in
+    missing values (NAs) in tables. This package was designed to work well with
+    `dplyr` and `tidyverse` data pipelines. 
+Depends:
+    R (>= 3.1.0)
+Imports:
+    assertthat,
+    dplyr (>= 0.4),
+    magrittr,
+    pander,
+    purrr,
+    rlang,
+    stats,
+    tibble,
+    tidyr
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/jakesherman/missing
+BugReports: https://github.com/jakesherman/missing/issues
